@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Panoul de control al serei</title>
+        <link rel="shortcut icon" type="image/jpg" href="istockphoto-1025621046-1024x1024.jpg">
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet"><!--IBM Plex Sans-->
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"><!--Space Mono-->
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet"><!--Cormorant-->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet"><!--Josefin Slab-->
+        <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet"><!--Aleo-->
+        <link href="https://fonts.googleapis.com/css2?family=Gudea&display=swap" rel="stylesheet"><!--Gudea-->
+        <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet"><!--Adamina-->
+        <link href="https://fonts.googleapis.com/css2?family=Palanquin&display=swap" rel="stylesheet"><!--Palanquin-->
+    </head>
+    <body>
+        <script src="Utils.js"></script>
+        <h1>Culegerea datelor din seră</h1>
+        <br>
+        <div id="infoIn"><!--În interiorul serei-->
+            <h3>Temparatura aer (interior):<p id="temperatureIn"></p></h3>
+            <h3>Temperatură apă: <p id="WaterTemp"></p></h3>
+            <h3>Umiditate: <p id="humidity"></p></h3>
+            <h3>Intensitate lumină: <p id="light"></p></h3>
+        </div>
+        <br>
+        <div id="infoOut"><!--În exteriorul serei-->
+            <h3>Temperatură aer (exterior): <p id="temperatureExt"></p></h3>
+            <h3>Umiditate: <p id="humidityExt"></p></h3>
+        </div>
+        <br>
+        <br>
+        <div id="topSetings"><p id="text3">Setări</p></div>
+        <div id="ventSetting">
+            <input type="checkBox" id="settings" class="checkbox"><text id="text">Ventilație</text></input>
+            <p id="text2">RPM: N/A</p>
+            <input type="user" placeholder="viteză minimă" id="speedsettings">
+            <input type="user" placeholder="viteză maximă" id="speedsettings">
+            <br>
+            <br>
+            <input type="checkBox" id="settings" class="checkbox"><text id="text">Popmpă</text></imput>
+            <br>
+            <br>
+            <input type="checkBox" id="settings" class="checkbox"><text id="text">Încălzitor</text></imput>
+            <input type="user" placeholder="Temperatură constantă" id="speedsettings">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h2>Sistem securitate</h2>
+        <br>
+        <div id="security">
+            <p>cameră...</p>
+        </div>
+        <br>
+        <br>
+        <div id="topErrorList"><p id="text3">Erori</p></div>
+        <div id="errors">
+            <div id="yscroll">
+                <p id="whiteText">Abcdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p>
+                <p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p><p id="whiteText">Abcd</p>
+                <p id="errorText">Abcd</p>
+                <p id="warningText">Abcd</p>
+            </div>
+        </div>
+    </body>
+</html>
